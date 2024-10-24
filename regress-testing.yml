@@ -61,6 +61,7 @@ test-cases:
     status: fail
     
 bugreports:
+
   - summary: |
     Изменяется размер хэдера сайта в свернутом режиме с открытием списка смены языков 
   environment: |
