@@ -8,55 +8,55 @@ test-cases:
       Проверка поиска товара по выпадающему списку категорий товаров
     status: pass
 
-- summary: |
+  - summary: |
       Проверка поиска товара по списку производителей товара
     status: pass
 
-- summary: |
+  - summary: |
       Проверка поиска товара по ценовому диапазону
     status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности просматривать подробную информацию о товаре на сайте
     status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности добавлять товары в корзину
     status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности просматривать содержимое корзины
     status: pass
 
-- summary: |
+  - summary: |
       Переход по страницам с товарами и между вкладками выполняется без подгрузки страницы
     status: fail
 
-- summary: |
+  - summary: |
       Проверка  протокола передачи данных сайта
     status: pass
 
-- summary: |
+  - summary: |
       Проверка отображения сайта на различных браузерах 
     status: pass
 
-- summary: |
+  - summary: |
       Проверка отображения сайта на различных мобильных устройствах и планшетах 
     status: pass
 
-- summary: |
+  - summary: |
       Проверка устойчивости сайта к sql иньекциям 
     status: pass
 
-- summary: |
+  - summary: |
       Проверка устойчивости сайта к xss иньекциям 
     status: pass
 
-- summary: |
+  - summary: |
       Проверка устойчивости сайта к sql иньекциям 
     status: pass
 
-- summary: |
+  - summary: |
       Проверка отображения текста сайта при переходе на другие языки 
     status: fail
     
@@ -176,7 +176,7 @@ bugreports:
   actual-result: |
       Интерфейс перемещается под карточки товара 
 
-  - summary: |
+- summary: |
       После выбора пустой категории пропадает возможность перехода на следующую страницу с товарами
   environment: |
       Ссылка на билд: https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
