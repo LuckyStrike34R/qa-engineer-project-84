@@ -115,7 +115,7 @@
   prerequisites: |
      Открыть главную страницу магазина 
   test-data: |
-     -
+     no-data
   steps:
      -  Перейти в dev tools браузера  
      -  Нажать на кнопку "Toggle device toolbar"
