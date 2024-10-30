@@ -1,52 +1,52 @@
 ---
 test-cases:
   - summary: |
-    Проверка поиска  по ключевому слову
-  status: pass
+      Проверка поиска  по ключевому слову
+    status: pass
 
-- summary: |
-    Проверка поиска по категории
-  status: pass
+  - summary: |
+      Проверка поиска по категории
+    status: pass
 
-- summary: |
-    Проверка поиска по брендам
-  status: pass
+  - summary: |
+      Проверка поиска по брендам
+    status: pass
 
-- summary: |
-    Проверка фильтра по цене 
-  status: pass
+  - summary: |
+      Проверка фильтра по цене 
+    status: pass
 
-- summary: |
-    Проверка открытия карточки товара
-  status: pass
+  - summary: |
+      Проверка открытия карточки товара
+    status: pass
 
-- summary: |
-    Проверка лейбла на иконке корзины
-  status: pass
+  - summary: |
+      Проверка лейбла на иконке корзины
+    status: pass
 
-- summary: |
-    Проверка добавления товара в корзину
-  status: pass
+  - summary: |
+      Проверка добавления товара в корзину
+    status: pass
 
-- summary: |
-    Кроссбраузерная проверка сайта 
-  status: pass
+  - summary: |
+      Кроссбраузерная проверка сайта 
+    status: pass
 
-- summary: |
-    Проверка мобильной версии сайта 
-  status: pass
+  - summary: |
+      Проверка мобильной версии сайта 
+    status: pass
 
-- summary: |
-    Проверка устойчивости сайта к sql иньекциям 
-  status: pass
+  - summary: |
+      Проверка устойчивости сайта к sql иньекциям 
+    status: pass
 
-- summary: |
-    Проверка устойчивости сайта к xss иньекциям 
-  status: pass
+  - summary: |
+      Проверка устойчивости сайта к xss иньекциям 
+    status: pass
 
-- summary: |
-     Проверка смены языка на Русский
-  status: fail
+  - summary: |
+       Проверка смены языка на Русский
+    status: fail
     
 bugreports:
 - summary: |
